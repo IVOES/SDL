@@ -6,5 +6,5 @@ sudo apt-get install build-essential git \
     libxrandr-dev libxcursor-dev libxfixes-dev libxi-dev libxss-dev libwayland-dev \
     libxkbcommon-dev libdrm-dev libgbm-dev libgl1-mesa-dev libgles2-mesa-dev \
     libegl1-mesa-dev libdbus-1-dev libibus-1.0-dev libudev-dev fcitx-libs-dev
-cmake -S ~/sdl -B ~/build
+cmake -S . ~/build
 cmake --build ~/build
